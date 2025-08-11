@@ -1,0 +1,55 @@
+return {
+  -- "nvim-java/nvim-java",
+  -- config = false,
+  -- dependencies = {
+  --   {
+  --     "neovim/nvim-lspconfig",
+  --     opts = {
+  --       servers = {
+  --         jdtls = {
+  --           -- Your custom jdtls settings goes here
+  --         },
+  --       },
+  --       setup = {
+  --         jdtls = function()
+  --           require("java").setup({
+  --             -- Your custom nvim-java configuration goes here
+  --             root_markers = {
+  --               --   "settings.gradle",
+  --               --   "settings.gradle.kts",
+  --               "pom.xml",
+  --               --   "build.gradle",
+  --               "mvnw",
+  --               --   "gradlew",
+  --               --   "build.gradle",
+  --               --   "build.gradle.kts",
+  --             },
+  --             jdtls = {
+  --               language_servers = {
+  --                 {
+  --                   name = "spring-boot-language-server",
+  --                   command = { "spring-boot-language-server", "--stdio" },
+  --                   root_patterns = { "pom.xml", "build.gradle" },
+  --                   filetypes = { "java" },
+  --                 },
+  --               },
+  --             },
+  --             java_test = {
+  --               enable = true,
+  --               version = "0.43.0",
+  --             },
+  --             java_debug_adapter = {
+  --               enable = true,
+  --               -- version = '0.58.1',
+  --             },
+  --             spring_boot_tools = {
+  --               enable = true,
+  --               version = "1.59.0",
+  --             },
+  --           })
+  --         end,
+  --       },
+  --     },
+  --   },
+  -- },
+}
